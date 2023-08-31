@@ -198,3 +198,26 @@ a {
     width: clamp(25px, 3rem, 100px);;
     border-radius: 50%;
 }
+
+/* FOOTER */
+
+footer {
+    grid-column: 1 / 3;
+    background: var(--secondary-light);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 5px 0 5px 0;
+}
+
+#github-image-link {
+    height: 20px;
+    margin-left: 10px;
+    cursor: pointer;
+    transition: all .3s ease;
+}
+#github-image-link:hover {
+    transform: scale(1.3);
+}
